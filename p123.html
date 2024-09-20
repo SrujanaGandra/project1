@@ -1,0 +1,939 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+     <link rel="stylesheet" href="">
+    <style>
+     
+        body{
+            overflow-x: hidden;  
+           
+           }
+                   .header{
+                       position: fixed;
+                       background: white;
+                       width: 100%;
+                       margin: -19px 0px;
+                       padding: 0px;
+                       color:black;
+                      gap: 30%;
+                      z-index: 1;
+                  
+                     }
+               
+               .p1{
+                   margin: 0px;
+                   width: 20%;
+                   word-spacing: 5px;
+                   float: left;
+                   margin-left: 20px;
+                   padding: 5px;
+               } 
+                     .top a {
+                    float: left;
+                       color:black;
+                       justify-content: center;
+                       padding: 14px 23px;
+                       text-decoration: none;
+                      font-size: 17px;
+                       margin-top: 10px;
+                       padding: 30px;
+                   
+                     }
+                   
+                     .top a.active {
+                       color: black;
+                     }
+                     .container{
+                  
+                        width:100%;
+                        display:grid;
+                        grid-template-areas:
+                        "img1 img2 img3 "
+                        "img1 img2 img3 " 
+                        "img1 img4 img5 "
+                    }
+                
+            .box{
+                background-image: url(./p1.jpg);
+                background-size: cover;
+                position: relative;  
+                width: 500px;
+                height: 500px;
+                padding: 10%;
+                left: 20px;
+                top: 70px;
+                color: white;
+            
+            }
+            .box h2{
+                text-align: center;
+                position: relative;
+                top: 130px;
+                right: 40px;
+                font-size: 50px;
+            }
+            .box p{
+                text-align: center;
+                position: relative;
+                top: 100px;
+                right: 20px;
+                font-size: 20px;
+            }
+            .box button{
+                text-align: center;
+                position: relative;
+                top: 100px;
+                right: -40px;
+                font-size: 30px;
+                opacity: 0.5;
+                padding: 2% 2% 2% 2%;
+            }
+            
+            .box1{
+                background-image: url(./p2.jpg);
+                width: 300px;
+                height: 300px;
+                background-size: cover;
+                position: relative;
+                top: 60px;
+                left: 100px;
+                color: white;
+            }
+            .box1 h2{
+                text-align: center;
+                position: relative;
+                top: 75px;
+                font-size: 50px;
+            }
+            .box1 p{
+                text-align: center;
+                position: relative;
+                font-size: 25px;
+                bottom: -50px;
+            }
+            .box2 {
+                background-image: url(./p3.jpg);
+                background-size: cover;
+                width: 300px;
+                height: 300px;
+                position: relative;
+                left: 70px;
+                top:60px;
+                color: white;
+                
+            }
+            .box2 h2{
+                text-align: center;
+                position: relative;
+                font-size: 50px;
+                top: 80px;
+            }
+            .box2 p{
+                text-align: center;
+                position: relative;
+                font-size: 25px;
+                bottom: -50px;
+            }
+            .box3{
+                background-image: url(./p4.jpg);
+                background-size: cover;
+                width: 300px;
+                height: 300px;
+                position: relative;
+                left: 650px;
+                top: -230px;
+                color: white;
+            
+            }
+            .box3 h2{
+                text-align: center;
+                position: relative;
+                font-size: 50px;
+                bottom: -80px;
+            }
+            .box3 p{
+                text-align: center;
+                position: relative;
+                font-size: 25px;
+                bottom: -50px;
+            }
+            .box4{
+                background-image: url(./p5.jpg);
+                background-size: cover;
+                position: relative;
+                width: 300px;
+                height: 300px;
+                top: -230px;
+                left: 420px;
+                color: white;
+            }
+            .box4 h2{
+                text-align: center;
+                position: relative;
+                font-size: 50px;
+                top: 80px;
+            }
+            .box4 p{
+                text-align: center;
+                position: relative;
+                font-size: 25px;
+                top: 50px;
+            }
+            .p2 {
+              font-size: 40px;
+            }
+            .p2 h2{
+              margin-left: 50px;
+              margin-bottom: -0px;
+            }
+            .p3{
+                width: 29%;
+                padding: 0px;
+                margin: 10px;
+                float: left;
+               
+            }
+            .p3 img{ 
+                width: 100%;
+                padding: auto;
+                margin: 0px;
+             
+            }
+            
+            .p3 h2{
+             
+                padding: 10px 0px;
+                margin: 0px;
+            
+              
+            }
+            .p3 h4{
+                font-weight: 100;
+                padding: 1px 0px;
+                margin: 0px;
+            }
+        
+            .p4{
+              font-size: 30px;
+              
+            }
+            .p4 h2{
+              margin-left: 50px;
+              margin-bottom: -0px;
+            }
+            .p5{
+              width: 29%;
+              padding: 0px;
+              margin: 10px;
+              float: left;
+            
+          }
+          .p5 img{ 
+              width: 100%;
+              padding: auto;
+              margin: 0px;
+              
+          }
+          
+          .p5 h2{
+           
+              padding: 10px 0px;
+              margin: 0px;
+          
+            
+          }
+          .p5 h4{
+              font-weight: 100;
+              padding: 1px 0px;
+              margin: 0px;
+          }
+          .p6{
+            font-size: 30px;
+            
+          }
+          .p6 h2{
+            margin-left: 50px;
+            margin-bottom: -0px;
+          }
+          #f{
+            width: 50px;
+            float: left;
+            text-align: center;
+            margin-top: 180px;
+          }
+    
+        .p6 {
+            float: left;
+            width: 100%;
+        }
+   
+        .p7{
+            width: 29%;
+            padding: 0px;
+            margin: 10px;
+            float: left;
+          
+        }
+        .p7 img{ 
+            width: 100%;
+            padding: auto;
+            margin: 0px;
+            
+        }
+        
+        .p7 h2{
+         
+            padding: 10px 0px;
+            margin: 0px;
+        
+          
+        }
+        .p7 h4{
+            font-weight: 100;
+            padding: 1px 0px;
+            margin: 0px;
+        }
+
+        .p8{
+            width: 50%;
+            font-size: 25px;
+            padding: 50px;
+          
+          }
+          .p9 img{
+            width: 20%;
+            position: relative;
+            float: left;
+            top: -750px;
+            left: 80%;
+          }
+          .p9 h2{
+            position: relative;
+            float: left;
+            top: -680px;
+            left: 40%;
+          }
+          .p9 p{
+            position: relative;
+            float: left;
+            top: -645px;
+            left: 30%;
+          }
+          .p10 img{
+            position: relative;
+            float: left;
+            top: -420px;
+            left: 15%;
+          }
+          .p10 h2{
+            position: relative;
+            float: left;
+            top: -380px;
+            left: 20%;
+          }
+          .p10 p{
+            position: relative;
+            float: left;
+            top: -340px;
+            left: 9%;
+          }
+              
+            
+          
+             .p13{ 
+          float: left;
+              width: 45%;
+              font-size: 25px;
+              padding: 10px 50px;
+             margin-top: 100px;
+             }
+            .pp {
+              float: left;
+              padding: 30px;
+          }
+              .p14{
+           float:left;
+              width: 20%;
+              margin-top: 100px;
+           
+             }
+                .p19{
+           float:left;
+              width: 20%;
+              margin-top: 100px;
+           
+             }
+            
+            
+            .p13 h1,h5{
+              width: 110%;
+          
+            }
+            .p13 button{
+              width: 30px;
+              height: 30px;
+            }
+            #f2{
+              width: 30px;
+              height: 30px;
+            }
+            .footer{
+              background-color: #000000;
+              width: 100%;
+              margin: 0px;
+              padding: auto;
+              float: left;
+          
+          }
+          .pp h2{
+               color: white;
+              padding: 10px 0px;
+              margin: 0px;
+          
+          }
+          .pp p{
+               color: white;
+              padding: 10px 0px;
+              margin: 0px;
+          
+          }
+          
+           .p11 {
+              width: 100%;
+              float: left;
+              font-size: 30px;
+              margin-left: 30px;
+
+          }
+          .p11 h2{
+            margin-top: -100px;
+          
+          }
+           .p12 {
+              width: 100%;
+              float: left;
+          }
+           .p12 img {
+                 width: 16%;
+              
+              margin: 0px 0px;
+          }
+          hr {
+            position: relative;
+            border-style:dashed;
+            width: 100%;
+            opacity: 0.2;
+            top: -180px;
+          }
+
+
+
+  
+          @media  screen and  (max-width: 650px){
+  
+            .container{
+                display: flex;
+                flex-direction: column;
+            }
+            .box {
+              top:100px;
+                width: 400px;
+                height: 400px;
+            }
+            .box h2{
+              font-size: 30px;
+              top: 80px;
+          }
+          .box p{
+            font-size: 20px;
+          }
+          .box1 {
+            top:120px;
+            left: 30px;
+                width: 400px;
+                height: 400px;
+          }
+          .box2 {
+            top:150px;
+            left: 30px;
+                width: 400px;
+                height: 400px;
+          }
+          .box3 {
+            top:180px;
+            left: 30px;
+                width: 400px;
+                height: 400px;
+          }
+          .box4 {
+            top:200px;
+            left: 30px;
+                width: 400px;
+                height: 400px;
+          }
+
+          .p2 {
+            position: relative;
+            top:400px;
+            font-size: 20px;
+          }
+          #b0{
+            position: relative;
+            width: 400px;
+            height: 400px;
+            top: 390px;
+          }
+          #b1{
+            position: relative;
+            width: 400px;
+            height: 400px;
+            top:950px;
+            left:-100px;
+          }
+          #b2{
+            position: relative;
+            width: 400px;
+            height: 400px;
+            top: 1000px;
+            left:40px;
+          }
+          #f{
+          visibility: hidden;
+          }
+          #z0{
+            position: relative;
+            top: 380px;
+          }
+          #z1{
+            position: relative;
+            top:400px;
+          }
+          #z2{
+            position: relative;
+            top:950px;
+            left: -80px;
+          }
+          #z3{
+            position: relative;
+            top:950px;
+            left: -80px;
+          }
+          #z4{
+            position: relative;
+            top:-10px;
+          }
+          #z5{
+            position: relative;
+          }
+
+          .p4{
+            position: relative;
+            top:800px;
+            font-size: 20px;
+          }
+          #b3{
+            position: relative;
+            width: 400px;
+            height: 400px;
+            top: 800px;
+          }
+          #b4{
+            position: relative;
+            width: 400px;
+            height: 400px;
+            top: 1350px;
+            left: -90px;
+          }
+          #b5{
+            position: relative;
+            width: 400px;
+            height: 400px;
+            top: 1400px;
+            left: 50px;
+          }
+          #z6{
+            position: relative;
+            top:800px;
+          }
+          #z7{
+            position: relative;
+            top:800px;
+          }
+          #z8{
+            position: relative;
+            top:1900px;
+            left:-80px;
+          }
+          #z9{
+            position: relative;
+            top:1800px;
+        
+            
+          }
+          #z10{
+            position: relative;
+            top:800px;
+            left: 50px;
+          }
+          #z11{
+            position: relative;
+            top:800px;
+            left:60px;
+          }
+
+
+
+          .p6{
+           position: relative;
+           top: 1250px;
+           font-size: 20px;
+          }
+          #b6{
+            position: relative;
+            width: 400px;
+            height: 400px;
+            top:1250px;
+          }
+          #b7{
+            position: relative;
+            width: 400px;
+            height: 400px;
+            top: 1800px;
+            left: -90px;
+          }
+          #b8{
+            position: relative;
+            width: 400px;
+            height: 400px;
+            top:1800px;
+            left:60px;
+          }
+          #z12{
+            position: relative;
+            top:2350px;
+            left:20px;
+          }
+          #z13{
+            position: relative;
+            top:1250px;
+          }
+          #z14{
+            position: relative;
+            top:1800px;
+            left:-80px;
+          }
+          #z15{
+            position: relative;
+            top:1800px;
+            left: -80px;
+          }
+          #z16{
+            position: relative;
+            top:700px;
+            left: 50px;
+          }
+          #z17{
+            position: relative;
+            top:1800px;
+            left:70px;
+          }
+          
+
+
+          .p8{
+           position: relative;
+          top:1800px;
+          width: 100%;
+          }
+          .p9 img{
+            position: relative;
+            width: 200px;
+            height: 200px;
+            top: 1800px;
+            left:190px;
+          }
+          .p9 h2{
+            top: 1600px;
+            left: 20px;
+          }
+          .p9 p{
+            top: 1650px;
+            left: -100px;
+          }
+          .p10 img{
+            width: 200px;
+            height: 200px;
+            top: 1800px;
+            left:10px;
+
+          }
+          .p10 h2{
+            top: 1600px;
+            left: 230px;
+          }
+          .p10 p{
+            top: 1580px;
+            left: 240px;
+
+          }
+          .p11{
+            
+            position: relative;
+            width: 100%;
+            top:1900px;
+
+          }
+         .p12{
+          position: relative;
+          top: 1970px;
+          width: 450px;
+          left: 50px;
+         }
+         .p13{
+          position: relative;
+         
+          top: 1900px;
+          left:-20px
+          
+         }
+         .p14{
+          position: relative;
+          
+          top:1200px;
+          left: 210px;
+         }
+         .p19{
+          position: relative;
+          top:1200px;
+          left:280px;
+          
+         }
+         .footer{
+          position: relative;
+          top:1300px;
+          
+         }
+   
+
+
+        }
+        
+
+
+
+    </style>
+</head>
+<body>
+    <div class="header"> 
+        <div class="top">
+            <div class="p1">
+                <img src="./logo.png">
+            </div>
+            <a href="#HOME" style="color: gray;">Home</a>
+            <a href="#MEN'S">Men's</a>
+            <a href="#WOMEN'S">Women's</a>
+            <a href="#KID'S">Kid's</a>
+            <a href="#PAGES">Pages</a>
+            <a href="FEATURES">Features</a>
+            <a href="#EXPLORE">Explore</a>
+        </div>
+    </div>
+    
+    <div class="container">
+        <div class="box" id="item1">
+            <h2>we are shopping</h2>
+            <p>Awesome, clean & creative HTML5 Template</p>
+            <button type="button">purchase now!</button>
+        </div>
+    
+        <div class="box1" id="item2">
+            <h2>Women</h2>
+            <p>Best Clothes For Women </p>
+        </div>
+        <div class="box2" id="item3">
+            <h2>Men</h2>
+            <p>Best Clothes For Men</p>
+        </div>
+        <div class="box3" id="item4">
+            <h2>Kids</h2>
+            <p>Best Clothes For kids </p>
+        </div>
+        <div class="box4" id="item5">
+            <h2>Accessories</h2>
+            <p>Best Trend Accessories </p>
+        </div>
+    </div>
+<hr>
+      <div class="p2">
+        <h2 style="margin-top :-150px">Men's Latest</h2>
+        <h5 style="margin-left: 50px;"> Details to details is what makes Hexashop different from the other themes.</h5>
+     </div>
+        <div id="f"><img src="./prev.png"></div>
+      <div class="p3">
+        <img src="./men-01.jpg" id="b0">
+        <h2 id="z0"><pre>Classic Spring           ★★★★★</pre></h2>
+        <h4 id="z1">&#36;120.00</h4>
+        </div>
+        <div class="p3">
+          <img src="./men-02.jpg" id="b1">
+          <h2 id="z2"><pre>Air Force 1X             ★★★★★</pre></h2>
+          <h4 id="z3">&#36;90.00</h4>
+          </div>
+          <div class="p3" id="b2">
+            <img src="./men-03.jpg">
+            <h2 id="z4"><pre>Love Nana'20              ★★★★★</pre></h2>
+            <h4 id="z5">&#36;150.00</h4>
+            </div>
+            <div id="f"><img src="./after.png"></div> 
+        </div> 
+        <br>    
+    <hr style="top: 50px;">
+           
+    <div class="p4">
+      <h2 style="margin-top :150px";>Women's Latest</h2>
+      <h5 style="margin-left: 50px;">Details to details is what makes Hexashop different from the other themes.</h5>
+      </div>
+      <div id="f"><img src="./prev.png"></div>
+      <div class="p5">
+        <img src="./women-01.jpg" id="b3">
+        <h2 id="z6"><pre>New Green Jacket        ★★★★★</pre></h2>
+        <h4 id="z7">&#36;75.00</h4>
+        </div>
+        <div class="p5">
+          <img src="./women-02.jpg" id="b4">
+          <h2 id="z8"><pre>Classic Dress             ★★★★★</pre></h2>
+          <h4 id="z9">&#36;45.00</h4>
+          </div>
+          <div class="p5">
+            <img src="./women-03.jpg" id="b5">
+            <h2 id="z10"><pre>Spring Collection         ★★★★★</pre></h2>
+            <h4 id="z11">&#36;130.00</h4>
+            </div>
+            <div id="f"><img src="./after.png"></div>
+            <hr style="top:50px">
+      <div class="p6">
+        <h2 style="margin-top: 150px;">Kid's Latest</h2>
+        <h5 style="margin-left: 50px;">Details to details is what makes Hexashop different from the other themes.</h5>
+      </div>
+      <div id="f"><img src="./prev.png"></div>
+      <div class="p7">
+        <img src="./kid-01.jpg" id="b6">
+        <h2 id="z12"><pre>School Collection         ★★★★★</pre></h2>
+        <h4 id="z13">&#36;80.00</h4>
+        </div>
+        <div class="p7">
+          <img src="./kid-02.jpg" id="b7">
+          <h2 style="font-size: 20px;" id="z14"><pre>Summer Cap               ★★★★★</pre>     </h2>
+          <h4 id="z15">&#36;12.00</h4>
+          </div>
+          <div class="p7">
+            <img src="./kid-03.jpg" id="b8">
+            <h2 id="z16"><pre>Classic Kid               ★★★★★</pre></h2>
+            <h4 id="z17">&#36;30.00</h4>
+            </div>
+            <div id="f"><img src="./after.png"></div>
+
+
+            <hr style="top: 50px;">
+            <div class="p8">
+                <h2>Explore Our Products</h2>
+                <p>You are allowed to use this HexaShop HTML CSS template. You can feel<br> free to modify or edit this layout. You can convert this template as any<br> kind of ecommerce CMS theme as you wish.</p>
+                <h4>You are not allowed to redistribute this template ZIP file on any<br>other website.</h4>
+              <p>There are 5 pages included in this HexaShop Template and we are<br> providing it to you for absolutely free of charge at our TemplateMo<br> website. There are web development costs for us.</p>
+              <p>If this template is beneficial for your website or business, please kindly<br> support us a little via PayPal. Please also tell your friends about our<br> great website. Thank you.</p>
+              <button type="button">Discover More</button>
+            </div>
+           
+              <div class="p9">
+                <img src="./explore-image-01.jpg">
+                <h2>Leather Bags</h2>
+                <p>Latest Collection</p>
+                </div>
+                <div class="p10">
+                <img src="./explore-image-02.jpg">
+                <h2>Different Types</h2>
+                <p>Over 304 Products</p>
+              </div>
+              <br>
+             <hr style="top:-200px">
+              <div class="p11">
+                <h2 >Social Media</h2>
+                <p>Details to details is what makes Hexashop different from the other themes.</p>
+              </div>
+              <div class="p12">
+                <img src="./instagram-01.jpg">
+                <img src="./instagram-02.jpg">
+                <img src="./instagram-03.jpg">
+                <img src="./instagram-04.jpg">
+                <img src="./instagram-05.jpg">
+                <img src="./instagram-06.jpg">
+              </div>
+              <br>
+              <hr style="top: 50px;">
+              <div class="p13">
+                <h3>By Subscribing To Our Newsletter You Can Get 30% Off</h3>
+                <h5>Details to details is what makes Hexashop different from the other themes.</h5>
+                <input type="text" placeholder="Your Name" required>
+                <input type="email" placeholder="Your Email Address" required>
+                <button type="button"><img src="./telegram.png" id="f2"></button>
+              </div>
+              
+              
+              <div class="p14">
+                <h2>Store Location:</h2>
+                <p>Sunny Isles Beach, FL 33160, United States</p>
+                
+                <h2>Phone:</h2>
+                <p>010-020-0340</p>
+              
+                <h2>Office Location:</h2>
+                <p>North Miami Beach</p>
+              </div>
+              <div class="p19">
+                <h2>Work Hours:</h2>
+                <p>07:30 AM - 9:30 PM Daily</p>
+              
+                <h2>Email:</h2>
+                <p>info@company.com</p>
+              
+                <h2>Social Media:</h2>
+                <p>Facebook, Instagram, Behance, Linkedin</p>
+              </div>
+                <div class="footer">
+                  <div class="pp" >   
+                      <img src="./logo.png">                                                                        
+                      <p>16501 Collins Ave,Sunny isles Beach,FL 33160,United States</p>
+                      <p>hexashop@company.com</p>
+                      </div>
+                      <div class="pp"> 
+                          <h2>Shopping & Categories</h2>
+                        
+                          <p>Men's shopping</p>
+                          <p>Women'shopping</p>
+                          <p>Kid's Shopping</p>
+                         
+                      </div>
+                          <div class="pp"> 
+                          <h2>Useful Links</h2>
+                          <p>Homepage</p>
+                          <p>About Us</p>
+                          <p>Help</p>
+                          <p>Contact Us</p>
+                          </div>
+                      
+                          <div class="pp" > 
+                            <h2>Help & Information</h2>
+                          <p>Help</p>
+                          <p>FAQ's</p>
+                          <p>Shipping</p>
+                          <p>Tracking ID</p>
+                          </div>
+              
+                      </div>
+              
+              </div>
+</body>
+</html>
